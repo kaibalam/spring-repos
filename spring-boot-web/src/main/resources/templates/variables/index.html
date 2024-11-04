@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title th:text="${titulo}"></title>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+
+<body>
+	<h1 th:text="${titulo}" class="color-rojo"></h1>
+	<h2 class="color-azul">Decorando con estilos css recursos estáticos</h2>
+	<img th:src="@{/images/flutter.png}"/>
+	<ul>
+		<li><a th:href="@{/variables/string/} +'Hola Andres'">/variables/string/Hola Andrés</a></li>
+		<li><a th:href="@{/variables/string/} +'Que tal John'">/variables/string/Que tal John</a></li>
+		<li><a th:href="@{/variables/string/} +'Saludos Andres' + '/' + 7 ">/variables/string/Saludos Andrés/7</a></li>
+	</ul>
+</body>
+
+</html>

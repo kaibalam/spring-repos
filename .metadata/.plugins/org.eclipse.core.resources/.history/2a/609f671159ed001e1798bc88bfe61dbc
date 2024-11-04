@@ -1,0 +1,13 @@
+package com.bolsadeideas.springboot.error.app.controllers;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+@ControllerAdvice
+public class ErrorHandlerController {
+	
+	public String aritmeticaError(Exception e, Model mode) {
+		return "/";
+	}
+
+}

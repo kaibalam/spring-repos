@@ -1,0 +1,2 @@
+INSERT INTO CLIENTES VALUES (1,"Ricardo","Valenzuela","rvalenzuela@correo.com","2024-04-01");
+INSERT INTO CLIENTES VALUES (2,"Cesia","Ramírez","cramirez@correo.com","2024-04-01");

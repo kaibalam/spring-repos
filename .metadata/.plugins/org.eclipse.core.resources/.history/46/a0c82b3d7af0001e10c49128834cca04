@@ -1,0 +1,3 @@
+NotEmpty.cliente.nombre=el nombre del cliente es requerido
+NotEmpty.cliente.apellido=el apellido del cliente es requerido
+NotEmpty.cliente.email=el email es requerido

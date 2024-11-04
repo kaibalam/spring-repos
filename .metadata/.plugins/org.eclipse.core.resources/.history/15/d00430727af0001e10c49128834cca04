@@ -1,0 +1,6 @@
+NotEmpty.cliente.nombre=el nombre del cliente es requerido
+NotEmpty.cliente.apellido=el apellido del cliente es requerido
+NotEmpty.cliente.email=el email es requerido
+Email.cliente.email=La dirección de correo no es válida
+NotNull.cliente.createAt=La fecha no puede ser nula
+typeMistmatch.cliente.createAt=Formato de la fecha es inválida

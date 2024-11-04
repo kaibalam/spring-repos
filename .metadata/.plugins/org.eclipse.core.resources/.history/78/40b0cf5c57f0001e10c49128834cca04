@@ -1,0 +1,16 @@
+package com.bolsadeideas.springboot.app.service.impl;
+
+import java.util.List;
+
+import com.bolsadeideas.springboot.app.models.entity.Cliente;
+import com.bolsadeideas.springboot.app.service.ClienteService;
+
+public class ClienteServiceImpl implements ClienteService {
+
+	@Override
+	public List<Cliente> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

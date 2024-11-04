@@ -1,0 +1,45 @@
+package com.bolsadeideas.springboot.app.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bolsadeideas.springboot.app.models.dao.IClienteDao;
+import com.bolsadeideas.springboot.app.models.entity.Cliente;
+import com.bolsadeideas.springboot.app.repositories.ClienteRepository;
+import com.bolsadeideas.springboot.app.service.ClienteService;
+
+@Service
+public class ClienteServiceImpl implements ClienteService {
+	
+	@Autowired
+	private ClienteRepository repo;
+
+	@Autowired
+	private IClienteDao clienteDao;
+	@Override
+	public List<Cliente> findAll() {
+		// TODO Auto-generated method stub
+		return clienteDao.findAll();
+	}
+
+	@Override
+	public void save(Cliente cliente) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Cliente findOne(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

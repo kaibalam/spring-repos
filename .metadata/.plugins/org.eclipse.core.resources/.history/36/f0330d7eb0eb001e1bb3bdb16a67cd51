@@ -1,0 +1,21 @@
+package com.bolsadeideas.springboot.form.app.services;
+
+import java.util.List;
+
+import com.bolsadeideas.springboot.form.app.models.domain.Role;
+
+public class RoleServiceImpl implements RoleService{
+
+	@Override
+	public List<Role> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Role obtenerPorId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

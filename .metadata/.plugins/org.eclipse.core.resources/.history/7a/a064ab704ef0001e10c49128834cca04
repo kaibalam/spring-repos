@@ -1,0 +1,21 @@
+package com.bolsadeideas.springboot.app.models.entity;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "clientes")
+public class Cliente implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private String nombre;
+	private String apellido;
+
+}

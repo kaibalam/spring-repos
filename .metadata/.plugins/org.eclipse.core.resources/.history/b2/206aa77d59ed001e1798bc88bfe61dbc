@@ -1,0 +1,17 @@
+package com.bolsadeideas.springboot.error.app.controllers;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class ErrorHandlerController {
+	
+	@ExceptionHandler(ArithmeticException.class)
+	public String aritmeticaError(ArithmeticException e, Model model) {
+		model.addAttribute("error","Error de aritmética");
+		model.addAttribute("message", e.getMessage());
+		return "error/aritmetica";
+	}
+
+}

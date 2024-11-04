@@ -1,0 +1,2 @@
+spring.application.name=spring-boot-data-jpa
+spring.jpa.hibernate.ddl-auto=update

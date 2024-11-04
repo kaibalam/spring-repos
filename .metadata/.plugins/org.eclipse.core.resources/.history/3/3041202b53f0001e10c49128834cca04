@@ -1,0 +1,2 @@
+insert into clientes (id,nombre,apellido,email,createAt) values (1,"Ricardo","Valenzuela","rvalenzuela@correo.com","2024-04-01");
+insert into clientes (id,nombre,apellido,email,createAt) values (2,"Cesia","Ramírez","cramirez@correo.com","2024-04-01");

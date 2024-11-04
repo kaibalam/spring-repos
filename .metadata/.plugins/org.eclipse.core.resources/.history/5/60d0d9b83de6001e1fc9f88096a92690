@@ -1,0 +1,30 @@
+package com.bolsadeideas.springboot.di.app.models.domain;
+
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+@Component
+public class Factura {
+	private String description;
+	private Cliente cliente;
+	private List<ItemFactura> items;
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	public List<ItemFactura> getItems() {
+		return items;
+	}
+	public void setItems(List<ItemFactura> items) {
+		this.items = items;
+	}
+
+}

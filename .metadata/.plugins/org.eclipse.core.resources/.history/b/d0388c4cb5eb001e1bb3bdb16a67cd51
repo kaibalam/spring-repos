@@ -1,0 +1,42 @@
+package com.bolsadeideas.springboot.form.app.models.domain;
+
+
+public class Pais {
+	private Integer id;
+	private String código;
+	private String nombre;
+
+	public Pais() {
+	}
+
+	public Pais(Integer id, String código, String nombre) {
+		this.id = id;
+		this.código = código;
+		this.nombre = nombre;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getCódigo() {
+		return código;
+	}
+
+	public void setCódigo(String código) {
+		this.código = código;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+}

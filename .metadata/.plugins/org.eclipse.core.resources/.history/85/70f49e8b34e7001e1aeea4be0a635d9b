@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xlmns:th=""http://www.thymeleaf.org>
+	<head>
+		<meta charset="UTF-8">
+		<title>Titulo</title>
+	</head>
+	<body>
+		<form th:action="@{/form" method="post"></form>
+	</body>
+</html>
